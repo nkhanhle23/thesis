@@ -7,7 +7,9 @@ import json
 metrics = ['NetIncomeLoss','RevenueFromContractWithCustomerExcludingAssessedTax',
            'EarningsPerShareDiluted', 'NetCashProvidedByUsedInContinuingOperations',
            'NetCashProvidedByUsedInFinancingActivities', 
-           'NetCashProvidedByUsedInInvestingActivities']
+           'NetCashProvidedByUsedInInvestingActivities',
+           'CostOfGoodsAndServicesSold', 'SellingGeneralAndAdministrativeExpense'
+           ]
 
 start_year = 2006
 end_year = 2022
@@ -49,7 +51,9 @@ final_df['metric'] = final_df['metric'].replace({
     'EarningsPerShareDiluted': 'Diluted Earnings per share',
     'NetCashProvidedByUsedInContinuingOperations': 'Net Cash from Operating Activities',
     'NetCashProvidedByUsedInFinancingActivities': 'Net Cash from Financing Activities',
-    'NetCashProvidedByUsedInInvestingActivities': 'Net Cash from Investing Activities'
+    'NetCashProvidedByUsedInInvestingActivities': 'Net Cash from Investing Activities', 
+    'CostOfGoodsAndServicesSold': 'Cost of Goods Sold',
+    'SellingGeneralAndAdministrativeExpense': 'Selling, General and Administrative Expenses'
 })
 
 
