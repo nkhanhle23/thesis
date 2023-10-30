@@ -4,3 +4,6 @@ datasets/
 # Test code
 test.py
 preprocessing.py
+
+# model
+model/
