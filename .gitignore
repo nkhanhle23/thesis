@@ -1,6 +1,6 @@
 # Data
-datasets/
-cik.csv
+datasets/EXTRACTED_FILINGS/
+#cik.csv
 
 # Test code
 test.py
