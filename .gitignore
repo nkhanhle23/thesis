@@ -1,5 +1,6 @@
 # Data
 datasets/
+cik.csv
 
 # Test code
 test.py
