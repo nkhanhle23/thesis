@@ -1,6 +1,7 @@
 # Data
 datasets/EXTRACTED_FILINGS/
-#cik.csv
+datasets/intermediary/
+datasets/
 
 # Test code
 test.py
