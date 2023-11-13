@@ -7,4 +7,6 @@ torch
 matplotlib
 seaborn
 imblearn
+gensim
+spacy
 
