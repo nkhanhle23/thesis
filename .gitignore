@@ -8,4 +8,4 @@ test.py
 preprocessing.py
 
 # model
-model/
+models/
