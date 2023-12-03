@@ -1,7 +1,7 @@
 # Data
-datasets/EXTRACTED_FILINGS/
-datasets/intermediary/
 datasets/
+draft data/
+results/
 
 # Test code
 test.py
@@ -10,4 +10,3 @@ preprocessing.py
 # model
 models/
 
-draft data/
