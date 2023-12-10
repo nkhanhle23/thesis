@@ -1,11 +1,6 @@
 # Data
-datasets/
-draft data/
+data/
 results/
-
-# Test code
-test.py
-preprocessing.py
 
 # model
 models/
