@@ -9,4 +9,6 @@ seaborn
 imblearn
 gensim
 spacy
-
+wordcloud
+nltk
+imblearn
