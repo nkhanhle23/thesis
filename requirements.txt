@@ -12,3 +12,6 @@ spacy
 wordcloud
 nltk
 imblearn
+datasets
+accelerate -U
+transformers[torch]
