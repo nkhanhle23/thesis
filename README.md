@@ -6,17 +6,19 @@ The topic of this thesis is
 
 The repository's structure is as follows: 
 
-> data (is uploaded seperately in a Google Drive link)
+> data (is uploaded separately in a Google Drive link)
     > *00_raw*: stores raw data 
     > *01_interim*: stores data of intermediary steps. 
     > *02_processed*: stores official datasets for training and developing models.
     > *03_result reviews*: stores data for manual reviews. 
 
-> models: (is uploaded seperately in a Google Drive link)
+> models: (is uploaded separately in a Google Drive link)
     > *finbert-regression*: stores Scalers for post-processing predictions and Shapley values for sample contextual analysis. 
     > *random_forest*: stores trained Random Forest Regressors (RFR). Each RFR is a pipeline of 1) TF-IDF vectorizer and 2) Best estimator of RFR produced by GridSearchCV in the training process. 
 
 > notebooks: stores notebooks for each implemented step (more details can be found in thesis)
+
+**User guide**: Please run `pip install -r requirements.txt` first before going through the notebooks.  
 
 **Disclaimer**: many code snippets here are written with the help of AI tools such as ChatGPT and GitHub Copilot.
 
