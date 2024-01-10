@@ -1,25 +1,58 @@
-# WELCOME TO MY REPOSITORY 
-This is the repository for my Master's thesis at HWR with Prof. Dr. Diana Hristova as my first supervisor, and Prof. Dr. Roland Müller as my second supervisor.
+# Predicting Financial Performance through Forward-Looking Statement Analysis
 
-The topic of this thesis is 
-    **Predicting Financial Performance through Forward looking statement analysis**
+## Welcome to My Repository
 
-The repository's structure is as follows: 
+This repository contains the research and implementation for my Master's thesis at HWR Berlin, supervised by Prof. Dr. Diana Hristova and Prof. Dr. Roland Müller.
 
-> data (is uploaded separately in a Google Drive link)
-    > *00_raw*: stores raw data 
-    > *01_interim*: stores data of intermediary steps. 
-    > *02_processed*: stores official datasets for training and developing models.
-    > *03_result reviews*: stores data for manual reviews. 
+### Abstract
+This thesis explores the automation of financial data extraction from SEC Form 10-K reports, focusing on Forward-Looking Statements (FLS) that predict future revenues and earnings. It proposes a structured framework that uses a rule-based approach for extracting financial metric-related sentences, filtering FLS, and identifying predictive models for future performance. This research aims to establish a foundation for an automated NLP model that streamlines data extraction and predictive analysis from 10-Ks, aiding financial investors' decision-making. The findings indicate that a rule-based approach can effectively extract relevant sentences. Moreover, the study compares the effectiveness of FinBERT and DistilBERT in classifying FLS, revealing no significant advantage of one over the other. In performance prediction, Random Forest Regressor (RFR) outperforms FinBERT Regressor (FBR) across various metrics. The analysis also highlights the different textual features deemed important by each model, with trends pointing towards the relevance of company names and FLS-related terms.
 
-> models: (is uploaded separately in a Google Drive link)
-    > *finbert-regression*: stores Scalers for post-processing predictions and Shapley values for sample contextual analysis. 
-    > *random_forest*: stores trained Random Forest Regressors (RFR). Each RFR is a pipeline of 1) TF-IDF vectorizer and 2) Best estimator of RFR produced by GridSearchCV in the training process. 
+### Repository Structure
 
-> notebooks: stores notebooks for each implemented step (more details can be found in thesis)
+#### Data
+The data used in this study is hosted externally and can be accessed through a provided Google Drive link. The data directory is organized as follows:
+- **00_raw**: Stores the raw data extracted from the 10-K filings.
+- **01_interim**: Contains intermediary data used throughout the analysis.
+- **02_processed**: Holds the processed datasets ready for model training and evaluation.
+- **03_result_reviews**: Includes data sets for manual review and verification purposes.
 
-**User guide**: Please run `pip install -r requirements.txt` first before going through the notebooks.  
+#### Models
+The trained models are available via a separate Google Drive link and include:
+- **finbert-regression**: Contains scalers for post-processing predictions and Shapley values for contextual analysis.
+- **random_forest**: Houses trained Random Forest Regressors, each encapsulating a TF-IDF vectorizer and the best estimator from GridSearchCV.
 
-**Disclaimer**: many code snippets here are written with the help of AI tools such as ChatGPT and GitHub Copilot.
+#### Notebooks
+This directory hosts Jupyter notebooks for each step of the implementation. Detailed descriptions of the notebooks are included within the thesis document.
 
+### User Guide
+Before navigating through the notebooks, please ensure that all dependencies are installed using the following command:
+```
+pip install -r requirements.txt
+```
 
+### Disclaimer
+Many code snippets and methodologies implemented in this repository were developed with the assistance of AI tools such as ChatGPT and GitHub Copilot.
+
+### Installation and Setup
+
+To clone the repository and set up the necessary environment:
+
+```bash
+git clone [URL to repository]
+cd [repository name]
+pip install -r requirements.txt
+```
+Please follow the instructions within the notebooks in numerical order for the best experience.
+
+### Contributing
+This project is a part of academic research, and while open to suggestions and improvements, it may not be set up for external contributions. For any queries or discussions, please reach out via the contact information provided in the thesis.
+
+### Acknowledgements
+This work would not have been possible without the support of my academic advisors, the open-source software community, and the financial databases that have been crucial for the research.
+
+### Contact
+For any additional information or support, please refer to the contact details specified in the thesis document.
+
+---
+
+Remember to replace `[URL to repository]` and `[repository name]` with the actual URL and name of your GitHub repository. This draft aims to cover all the necessary parts of a well-documented `README.md`. Adjustments may be necessary to fit the exact setup and usage of your project.
