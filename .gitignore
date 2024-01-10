@@ -1,7 +1,13 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
 # Data
 data/
 results/
 
-# model
+# Model
 models/
+
+
 
