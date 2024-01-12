@@ -22,7 +22,7 @@ The data used in this study is hosted externally and can be accessed through a p
 
 #### Models
 ##### BERT-based models 
-The BERT-based models are stored on [my HuggingFace repository] (https://huggingface.co/lenguyen). 
+The BERT-based models are stored on [my HuggingFace repository](https://huggingface.co/lenguyen). 
 
 ##### Not BERT-based models
 The other models are available via a separate [Google Drive link](https://drive.google.com/drive/folders/165aLV5WdMfNTRIe_9_d3o4u0oFAYcOsK?usp=drive_link) and include:
@@ -40,6 +40,27 @@ Before navigating through the notebooks, please ensure that all dependencies are
 ```
 pip install -r requirements.txt
 ```
+
+------
+
+### Setting Up Your Local Environment
+
+To ensure the smooth functioning of the notebooks, it's crucial to set up your local environment correctly. This involves adding the necessary data and models to your local repository. Follow these steps to get started:
+
+#### Data Setup
+1. **Download Data**: Access and download the required data from [this folder](https://drive.google.com/drive/folders/1eZ7FoB_PpnJOM5LC0Sd9c1H-ig_c3GFM?usp=drive_link).
+2. **Organize Data**: After downloading, place this folder at the same level as your **notebooks** folder.   
+
+#### Model Setup 
+1. **BERT-based Models**: BERT-based models can be directly accessed from the notebooks so there are no further actions.
+   
+2. **Not BERT-based Models**:
+   - Download the non-BERT-based models from [this folder](https://drive.google.com/drive/folders/165aLV5WdMfNTRIe_9_d3o4u0oFAYcOsK?usp=drive_link).
+   - Place this folder at the same level as your **notebooks** folder. 
+
+Ensuring that the **data** and **models** folders are located alongside your **notebooks** folder is essential for the correct functioning of the notebooks. This setup allows the notebooks to easily access and utilize the necessary data and models.
+
+
 ------
 
 ### Disclaimer
