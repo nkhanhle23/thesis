@@ -1,18 +1,30 @@
+# General packages
 numpy
 pandas
-transformers
+
+# Machine learning packages
 scikit-learn
+transformers
 tensorflow
 torch
+
+# Data visualization
 matplotlib
 seaborn
-imblearn
+
+# Text processing
 gensim
 spacy
 wordcloud
 nltk
+
+# Oversampling
 imblearn
+
+# BERT model specific (used in 31b_predictive_model_finbert.ipynb)
 datasets
 accelerate -U
 transformers[torch]
+
+# Feature importance analysis
 shap
