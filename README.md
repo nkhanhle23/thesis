@@ -7,7 +7,7 @@ This repository contains the research and implementation for my Master's thesis 
 ------
 
 ### Abstract
-This thesis explores the automation of financial data extraction from SEC Form 10-K reports, focusing on Forward-Looking Statements (FLS) that predict future revenues and earnings. It proposes a structured framework that uses a rule-based approach for extracting financial metric-related sentences, filtering FLS, and identifying predictive models for future performance. This research aims to establish a foundation for an automated NLP model that streamlines data extraction and predictive analysis from 10-Ks, aiding financial investors' decision-making. The findings indicate that a rule-based approach can effectively extract relevant sentences. Moreover, the study compares the effectiveness of FinBERT and DistilBERT in classifying FLS, revealing no significant advantage of one over the other. In performance prediction, Random Forest Regressor (RFR) outperforms FinBERT Regressor (FBR) across various metrics. The analysis also highlights the different textual features deemed important by each model, with trends pointing towards the relevance of company names and FLS-related terms.
+This thesis explores the automation of financial data extraction from SEC Form 10-K reports, focusing on Forward-Looking Statements (FLS) that predict company's future financial performance. It proposes a structured framework that uses a rule-based approach for extracting financial metric-related sentences, filtering FLS, and identifying predictive models for future performance. This research aims to establish a foundation for an automated NLP model that streamlines data extraction and predictive analysis from 10-Ks, aiding financial investors' decision-making. The findings indicate that a rule-based approach can effectively extract relevant sentences. Moreover, the study compares the effectiveness of FinBERT and DistilBERT in classifying FLS, revealing no significant advantage of one over the other. In performance prediction, Random Forest Regressor (RFR) outperforms FinBERT Regressor (FBR) across various metrics. The analysis also highlights the different textual features deemed important by each model, with trends pointing towards the relevance of company names and FLS-related terms.
 
 ------
 
@@ -60,12 +60,6 @@ To ensure the smooth functioning of the notebooks, it's crucial to set up your l
 
 Ensuring that the **data** and **models** folders are located alongside your **notebooks** folder is essential for the correct functioning of the notebooks. This setup allows the notebooks to easily access and utilize the necessary data and models.
 
-
-------
-
-### Disclaimer
-Many code snippets and methodologies implemented in this repository were developed with the assistance of AI tools such as ChatGPT and GitHub Copilot.
-
 ------
 
 ### Installation and Setup
@@ -73,8 +67,8 @@ Many code snippets and methodologies implemented in this repository were develop
 To clone the repository and set up the necessary environment:
 
 ```bash
-git clone [URL to repository]
-cd [repository name]
+git clone [https://github.com/nkhanhle23/thesis]
+cd [thesis]
 pip install -r requirements.txt
 ```
 Please follow the instructions within the notebooks in numerical order for the best experience.
@@ -94,3 +88,7 @@ This work would not have been possible without the support of my academic adviso
 ### Contact
 For any additional information or support, please refer to the contact details specified in the thesis document.
 
+------
+
+### Disclaimer
+Many code snippets and methodologies implemented in this repository were developed with the assistance of AI tools such as ChatGPT and GitHub Copilot.
