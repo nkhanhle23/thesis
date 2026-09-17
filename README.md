@@ -29,7 +29,7 @@ This thesis explores the automation of financial data extraction from SEC Form 1
 ### Repository Structure
 
 #### Data
-The data used in this study is hosted externally and can be accessed through a provided [Google Drive link](https://drive.google.com/drive/folders/1eZ7FoB_PpnJOM5LC0Sd9c1H-ig_c3GFM?usp=drive_link). The data directory is organized as follows:
+The data used in this study is stored locally. The data directory is organized as follows:
 - **00_raw**: Stores the raw data extracted from the 10-K filings.
 - **01_interim**: Contains intermediary data used throughout the analysis.
 - **02_processed**: Holds the processed datasets ready for model training and evaluation.
@@ -40,53 +40,13 @@ The data used in this study is hosted externally and can be accessed through a p
 The BERT-based models are stored on [my HuggingFace repository](https://huggingface.co/lenguyen). 
 
 ##### Not BERT-based models
-The other models are available via a separate [Google Drive link](https://drive.google.com/drive/folders/165aLV5WdMfNTRIe_9_d3o4u0oFAYcOsK?usp=drive_link) and include:
+The other models are stored locally and include:
 - **finbert-regression**: Contains scalers for post-processing predictions and Shapley values for contextual analysis.
 - **random_forest**: Houses trained Random Forest Regressors, each encapsulating a TF-IDF vectorizer and the best estimator from GridSearchCV.
 
 
 #### Notebooks
 This directory hosts Jupyter notebooks for each step of the implementation. Detailed descriptions of the notebooks are included within the thesis document.
-
-------
-
-### User Guide
-Before navigating through the notebooks, please ensure that all dependencies are installed using the following command:
-```
-pip install -r requirements.txt
-```
-
-------
-
-### Setting Up Your Local Environment
-
-To ensure the smooth functioning of the notebooks, it's crucial to set up your local environment correctly. This involves adding the necessary data and models to your local repository. Follow these steps to get started:
-
-#### Data Setup
-1. **Download Data**: Access and download the required data from [this folder](https://drive.google.com/drive/folders/1eZ7FoB_PpnJOM5LC0Sd9c1H-ig_c3GFM?usp=drive_link).
-2. **Organize Data**: After downloading, place this folder at the same level as your **notebooks** folder.   
-
-#### Model Setup 
-1. **BERT-based Models**: BERT-based models can be directly accessed from the notebooks so there are no further actions.
-   
-2. **Not BERT-based Models**:
-   - Download the non-BERT-based models from [this folder](https://drive.google.com/drive/folders/165aLV5WdMfNTRIe_9_d3o4u0oFAYcOsK?usp=drive_link).
-   - Place this folder at the same level as your **notebooks** folder. 
-
-Ensuring that the **data** and **models** folders are located alongside your **notebooks** folder is essential for the correct functioning of the notebooks. This setup allows the notebooks to easily access and utilize the necessary data and models.
-
-------
-
-### Installation and Setup
-
-To clone the repository and set up the necessary environment:
-
-```bash
-git clone [https://github.com/nkhanhle23/thesis]
-cd [thesis]
-pip install -r requirements.txt
-```
-Please follow the instructions within the notebooks in numerical order for the best experience.
 
 ------
 
