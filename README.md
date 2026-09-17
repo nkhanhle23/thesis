@@ -3,8 +3,6 @@
 
 ## Relationship to the Published Paper
 
-[#relationship-to-the-published-paper](#relationship-to-the-published-paper)
-
 This repository contains the implementation developed for the original Master's thesis,
 including the SHAP-based interpretability analysis discussed in the paper below. The
 thesis was subsequently extended and published as:
