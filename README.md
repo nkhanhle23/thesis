@@ -1,7 +1,24 @@
 # Predicting Financial Performance through Forward-Looking Statement Analysis
 
-## Welcome to My Repository
 
+## Relationship to the Published Paper
+
+[#relationship-to-the-published-paper](#relationship-to-the-published-paper)
+
+This repository contains the implementation developed for the original Master's thesis,
+including the SHAP-based interpretability analysis discussed in the paper below. The
+thesis was subsequently extended and published as:
+
+> Nguyen, K.L., Hristova, D. (2025). An Automated Identification of Forward-Looking
+> Statements on Financial Metrics in Annual Reports. 20th International Conference on
+> Wirtschaftsinformatik (WI2025), Münster, Germany.
+
+The published paper adds one component not included here: an LLM-generated summary step
+for identified Forward-Looking Statements. The notebook for this step was not retained
+after publication and is not part of this repository. All other components described in
+the paper are reflected in the notebooks below.
+
+------
 This repository contains the research and implementation for my Master's thesis at HWR Berlin, supervised by Prof. Dr. Diana Hristova and Prof. Dr. Roland Müller.
 
 ------
